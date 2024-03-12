@@ -13,7 +13,7 @@ const Signin = () => {
   const Signin = async (e) => {console.log(formdata);
     e.preventDefault();
     try {
-      const response = await fetch('https://ec-backend-64z0.onrender.com/signup', {
+      const response = await fetch('https://eco-backend-boxa.onrender.com/signup', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
