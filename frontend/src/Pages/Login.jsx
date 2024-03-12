@@ -14,7 +14,7 @@ const Login = () => {
     console.log(formdata);
     e.preventDefault();
     try {
-      const response = await fetch('https://ec-backend-64z0.onrender.com/login', {
+      const response = await fetch('https://eco-backend-boxa.onrender.com/login', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
