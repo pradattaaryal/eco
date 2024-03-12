@@ -28,7 +28,7 @@ const Addproduct = () => {
     let product=productdetail;
     let formdata=new FormData();
     formdata.append('product',image)
-    await fetch('https://ec-backend-64z0.onrender.com/upload',{
+    await fetch('https://eco-backend-boxa.onrender.com/upload',{
       method:'post',
       headers:{
         Accept:'application/json',
@@ -48,7 +48,7 @@ const Addproduct = () => {
     {
       product.image = responsedata.image_url;
        console.log(product)
-       await fetch('https://ec-backend-64z0.onrender.com/addproduct',{
+       await fetch('https://eco-backend-boxa.onrender.com/addproduct',{
       method:'post',
       headers:{
         'Accept': 'application/json',
