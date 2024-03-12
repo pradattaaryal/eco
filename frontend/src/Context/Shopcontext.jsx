@@ -19,7 +19,7 @@ const ShopContextProvider = (props) => {
   const [all_product,setall_product]=useState([]);
   
   useEffect(() => {
-    fetch('http://localhost:4000/allproduct')
+    fetch('https://eco-backend-boxa.onrender.com/allproduct')
   .then(response => response.json())
   .then(data =>setall_product(data))
   .catch(error => console.error('Error:', error));
