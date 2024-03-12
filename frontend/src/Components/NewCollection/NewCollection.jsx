@@ -7,7 +7,7 @@ const NewCollection = () => {
   const [newCollection, setNewCollection] = useState([]);
 
   useEffect(() => {
-    fetch('https://ec-backend-1.onrender.com/newcollection')
+    fetch('https://eco-backend-boxa.onrender.com/newcollection')
       .then(response => response.json())
       .then(data => setNewCollection(data))
       .catch(error => console.error('Error fetching new collection:', error));
@@ -23,7 +23,7 @@ const NewCollection = () => {
             key={i}
             id={item.id}
             name={item.name}
-            image={`https://ec-backend-1.onrender.com/images/${item.image}`} // Adjusted image URL
+            image={`https://eco-backend-boxa.onrender.com/images/${item.image}`} // Adjusted image URL
             new_price={item.new_price}
             old_price={item.old_price}
           />
