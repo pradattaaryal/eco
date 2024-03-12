@@ -23,7 +23,7 @@ function App() {
          <Route path='/men' element={<ShopCategory banner={men_banner} category="Men"/>}></Route>
         <Route path='/women' element={<ShopCategory banner={women_banner} category="Women"/>}></Route>
         <Route path='/kids' element={<ShopCategory banner={kid_banner} category="Kid"/>}></Route>
-        <Route path='/product' element={<Product/>}>
+        <Route path='https://eco-backend-boxa.onrender.com/product' element={<Product/>}>
           <Route path=':productID' element={<Product/>}></Route>
         </Route>
         <Route path='/cart' element={<Cart/>}></Route>
