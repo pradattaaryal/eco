@@ -31,7 +31,7 @@ const ShopContextProvider = (props) => {
   const addcart=(itemId)=>{
     setcartitem((prev)=>({...prev, [itemId]:prev[itemId]+1}));
     if(localStorage.getItem('auth-token')){
-      fetch('https://ec-backend-64z0.onrender.com/addtocart',
+      fetch('https://eco-backend-boxa.onrender.com/addtocart',
      { method:'POST',
       Headers:{
         Accept:'application/formdata',
