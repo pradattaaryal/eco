@@ -13,7 +13,7 @@ const Signin = () => {
   const Signin = async (e) => {console.log(formdata);
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:4000/signup', {
+      const response = await fetch('https://ec-backend-64z0.onrender.com/signup', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
