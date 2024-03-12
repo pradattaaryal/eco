@@ -1,4 +1,5 @@
- 
+// NewCollection.jsx
+
 import React, { useEffect, useState } from 'react';
 import './NewCollection.css';
 import Item from '../Item/Item';
@@ -23,7 +24,8 @@ const NewCollection = () => {
             key={i}
             id={item.id}
             name={item.name}
-            image={`https://eco-backend-boxa.onrender.com/images/${item.image}`} // Adjusted image URL
+            // Use HTTPS URL for the image
+            image={`https://eco-backend-boxa.onrender.com/images/${item.image}`}
             new_price={item.new_price}
             old_price={item.old_price}
           />
