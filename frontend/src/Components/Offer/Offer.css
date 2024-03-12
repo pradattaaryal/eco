@@ -1,0 +1,54 @@
+.offer{
+width: 65%;
+height:85vh;
+display: flex;
+margin: auto;
+padding:0px 140px;
+margin-bottom: 150px;
+ 
+ 
+}
+.offer-l{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer-l h1{
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
+}
+.offer-l p{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+}
+.offer-l button{
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: rgb(14, 245, 149);
+    border: none;
+    color: white;
+    font-size: 22px;
+    margin-top: 60px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+}
+.offer-r{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 100% 44% 47% 54% / 57% 76% 70% 90% ;
+    
+    
+}
+  

@@ -1,0 +1,22 @@
+ .related{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+ }
+ .related h1{
+    font-size: 50px;
+    font-weight: 600;
+ }
+ .related hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #000;
+ }
+ .related-item{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+ }

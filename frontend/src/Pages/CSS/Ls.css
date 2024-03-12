@@ -1,0 +1,86 @@
+ .ls{
+  margin-top: 14vh;
+  height: 95vh;
+  /*background: #2980B9;  -----------/* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);-----------------  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); ------------/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('../../Components/Assets/y.jpg');
+   
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+ }
+ .ls-container{
+  width: 580px;
+  height: 400px;
+  background:#ffffff10;
+  backdrop-filter:blur(56px) ;
+  -webkit-backdrop-filter: blur(56px);
+  
+  padding: 40px 60px;
+  border-radius: 40px;
+ }
+ .ls-container h1{
+  margin-left: 245px;
+ }
+ .ls-fields{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 30px;
+ }
+ .ls-fields input{
+  height: 52px;
+  width: 100%;
+  padding-left:20px;
+  border: 2px solid black;
+  
+  outline: none;
+  color:#5c5c5c;
+  font-size: 18px;}
+
+  .ls-container button{
+    width:605px;
+    height:72px;
+    color:white;
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight:500 ;
+    cursor: pointer;
+  }
+  .ls-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .ls-login span{
+    color: red;
+    font-weight: 600;
+    padding-left: 10px;
+    cursor: pointer;
+
+  }
+  .ls-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap:20px;
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+  }
+   
+  .check {
+    transform: scale(2); /* Increase the size of the checkbox */
+  /* Adjust spacing */
+  }
+  

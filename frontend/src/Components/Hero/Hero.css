@@ -1,0 +1,78 @@
+.Hero{
+    height: 100vh;
+     display: flex;
+     margin-top: 16vh;
+     margin-bottom: 100px;
+}
+.heroLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 180px;
+    line-break: 1.1;
+
+}
+.heroLeft h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 500;
+    
+
+}
+.heroLeft p{
+    color: #171717;
+    font-size: 70px;
+    font-weight: 700;
+}
+ 
+.hand-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.hand-hand-icon img{
+    width: 105px;
+}
+ 
+.heroRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:91% 45% 38% 86% / 48% 83% 55% 90% ;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right: 100px;
+   
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    padding:  15px 0px;
+    background:rgb(14, 245, 149);
+    border-radius: 50px;
+    align-items: center;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}.btn:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    padding:  15px 0px;
+    background:rgb(70, 3, 186);
+    color: white;
+    border-radius: 50px;
+    align-items: center;
+}
+.btn span{
+    font-size: 20px;
+    font-weight: 900;
+}
