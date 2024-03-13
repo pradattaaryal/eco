@@ -7,6 +7,8 @@ import { ShopContext} from '../../Context/Shopcontext'
 const ProductD = (props) => {
     const {product}=props
     const{addcart}=useContext(ShopContext)
+  const imageUrl = `https://eco-backend-boxa.onrender.com${product.image}`;
+
   return (
     <div className='productdisplay'>
         <div className="product-left">
@@ -18,7 +20,7 @@ const ProductD = (props) => {
 
             </div>
             <div className="product-image">
-                <img  className="probuct-display-main" src={product.image} alt="" />
+                <img  className="probuct-display-main" src={imageUrl} alt="" />
             </div>
         </div>
         <div className="product-right">
