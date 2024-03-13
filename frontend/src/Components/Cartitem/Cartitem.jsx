@@ -19,8 +19,7 @@ const Cartitem = () => {
       if(cartitem[e.id]>0){
         return<div>
         <div className="cartitem-format cartitem-format-main">
-             image={`https://eco-backend-boxa.onrender.com/images/${e.image}`}
-            <img src={image} alt="" className='carticon-product-icon'/>
+            <img src={e.image} alt="" className='carticon-product-icon'/>
             <p>{e.name}</p>
             <p>{e.new_price}</p>
             <button className='cartitem-quantity'>{cartitem[e.id]}</button>
