@@ -4,6 +4,7 @@ import { ShopContext } from '../../Context/Shopcontext'
 import remove_icon  from '../Assets/cart_cross_icon.png'
 const Cartitem = () => {
     const {all_product,cartitem,removecart,gettotal}=useContext(ShopContext)
+    
   return (
     <div className='cartitem'> 
     <div className="cartitem-format-main">
@@ -17,9 +18,10 @@ const Cartitem = () => {
     <hr />
     {all_product.map((e)=>{
       if(cartitem[e.id]>0){
+          const imageUrl = `https://eco-backend-boxa.onrender.com/images/${e.image}`;
         return<div>
         <div className="cartitem-format cartitem-format-main">
-            <img src={e.image} alt="" className='carticon-product-icon'/>
+            <img src={imageUrl} alt="" className='carticon-product-icon'/>
             <p>{e.name}</p>
             <p>{e.new_price}</p>
             <button className='cartitem-quantity'>{cartitem[e.id]}</button>
